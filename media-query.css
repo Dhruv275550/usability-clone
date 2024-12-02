@@ -5,6 +5,9 @@
     display: none;
 }
 @media screen and (max-width:991px) {
+    h3{
+        font-size: 1.2rem;
+    }
     .toggle-btn{
         display: block;
         margin-right: 20px;
@@ -24,4 +27,16 @@
 .example-card{
     width: calc(50% -10px);
     height: 180px;
+}
+@media screen and (max-width:767px) {
+    .header-section{
+        flex-direction:column-reverse
+    }
+    .header-left{
+        width: 100%;
+    }
+    .secondary-button{
+        width: 100%;
+    }
+    
 }
