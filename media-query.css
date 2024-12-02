@@ -9,8 +9,19 @@
         display: block;
         margin-right: 20px;
     }
+    .example-card{
+        height: 300px;
+    }
     .nav-links{
         display: none;
     }
     
+}
+.example-area{
+    flex-wrap: warp;
+
+}
+.example-card{
+    width: calc(50% -10px);
+    height: 180px;
 }
